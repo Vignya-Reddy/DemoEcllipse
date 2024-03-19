@@ -1,11 +1,5 @@
 package com.prodapp.model;
 
-/* 1)Create a Layered architecture of Product Application with Service Layer, DAO layer
-It should do following operations
-1)Display existing product List
-2)Add list of 3 products into existing List
-3)delete a data from list 
-4)update list with given product name and display it again */
 
 public class Product {
 	private int productId;
@@ -40,7 +34,7 @@ public class Product {
 		return "Product [ProductId =" + productId + ", ProductName=" + productName + ", price=" + price + "]";
 	}
 	
-	
+	//Product Application using layered architecture
 	
 
 }
