@@ -53,5 +53,19 @@ public class ProductDemo{
  
 	}
 }
+
+/*
+ * List<Product> maxPrice = prod.stream()
+                .filter(pro -> pro.getPrice() > 30000)
+                .sorted((prod1, prod2) -> Integer.compare(prod1.getPrice(), prod2.getPrice()))
+                .collect(Collectors.toList());
+
+        System.out.println("Product with price (> 30000):");
+        maxPrice.forEach(pro ->
+                System.out.println("Product:[ProductId : " + product.getProductId()+ ", ProductName : " + product.getProductName() + ", price : " + product.getPrice()+  " ]"));
+		
+
+ 
+	}*/
 		 
 	
