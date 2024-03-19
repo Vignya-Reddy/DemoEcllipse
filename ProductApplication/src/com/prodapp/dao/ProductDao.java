@@ -10,7 +10,7 @@ public interface ProductDao {
 	public void updateProducts(Product product);
 	public void deleteProducts(int ProductId);
 }
-
+//this is just for reference
 /*
  * public interface ProductDao {
 	public void addProducts(List<Product>p);
