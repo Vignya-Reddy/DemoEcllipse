@@ -42,4 +42,10 @@ public class ProductDaoImpl implements ProductDao {
 		prod.remove(productId);
 		
 	}
+	/*
+	 * @Override
+	public void deleteProducts(int productId) {
+		prod.remove(productId);
+		
+	}*/
 }
